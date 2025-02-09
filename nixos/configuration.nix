@@ -96,7 +96,7 @@
 	waybar
 	nomacs-qt6
 	(prismlauncher.override {
-		jdks = [jdk21 jdk22];	
+		jdks = [jdk21 jdk23];	
 	})
      ];
 
