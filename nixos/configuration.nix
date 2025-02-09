@@ -95,6 +95,10 @@
 	swaynotificationcenter
 	waybar
 	nomacs-qt6
+	prismlauncher
+	(prismlaucnher.override {
+		jdks = [jdk21 jdk22];	
+	})
      ];
 
 
