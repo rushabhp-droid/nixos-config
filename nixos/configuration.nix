@@ -95,6 +95,7 @@
 	swaynotificationcenter
 	waybar
 	nomacs-qt6
+	materialgram
 	(prismlauncher.override {
 		jdks = [jdk21 jdk23];	
 	})
