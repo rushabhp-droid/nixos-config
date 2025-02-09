@@ -97,6 +97,15 @@
 	nomacs-qt6
      ];
 
+
+  # Enable Steam
+  programs.steam = {
+  	enable = true;
+  	remotePlay.openFirewall = true; # Open ports in the firewall for Steam Remote Play
+  	dedicatedServer.openFirewall = true; # Open ports in the firewall for Source Dedicated Server
+  	localNetworkGameTransfers.openFirewall = true; # Open ports in the firewall for Steam Local Network Game Transfers
+	};
+
   fonts.packages = with pkgs; [ nerd-fonts.iosevka-term-slab  ];
 
   # For more information, see `man configuration.nix` or https://nixos.org/manual/nixos/stable/options#opt-system.stateVersion .
