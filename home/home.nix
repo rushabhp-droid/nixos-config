@@ -13,6 +13,9 @@
 	pywalfox-native
 	gh
 	mpv
+	yt-dlp
+	ffmpeg
+	aria2
 	];
   # This value determines the Home Manager release that your
   # configuration is compatible with. This helps avoid breakage
